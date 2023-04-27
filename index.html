@@ -1,1 +1,55 @@
 <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marcos Lafoz - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Marcos Lafoz</h1>
+    <p>Desarrollador web</p>
+  </header>
+
+  <section id="about">
+    <h2>Acerca de mí</h2>
+    <p>Soy un desarrollador web apasionado por la creación de soluciones digitales innovadoras. Me especializo en lenguajes de programación como JavaScript, HTML y CSS, y tengo experiencia en el desarrollo de aplicaciones web y móviles.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Proyectos destacados</h2>
+    <ul>
+      <li>
+        <a href="#">Proyecto 1</a>
+        <p>Descripción breve del proyecto.</p>
+      </li>
+      <li>
+        <a href="#">Proyecto 2</a>
+        <p>Descripción breve del proyecto.</p>
+      </li>
+      <li>
+        <a href="#">Proyecto 3</a>
+        <p>Descripción breve del proyecto.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contacto</h2>
+    <form action="send_email.php" method="POST">
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Mensaje:</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; Marcos Lafoz 2023</p>
+  </footer>
+</body>
+</html>
