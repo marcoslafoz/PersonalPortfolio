@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#logo {
+  filter: invert();
+  width: 50px;
+}
+
+body {
+  background-color: rgb(0, 2, 6);
+}
+
+#msg {
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 60px;
+}
+
+#cont {
+  display: block;
+  margin: auto;
+}
