@@ -1,27 +1,268 @@
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+* {
   margin: 0;
 }
 
-#logo {
-  filter: invert();
-  width: 50px;
-}
-
 body {
-  background-color: rgb(0, 2, 6);
+  background-color: rgb(255, 255, 255);
+  font-family: 'Samsung Sharp Sans Regular';
 }
 
-#msg {
-  color: white;
-  font-family: 'Courier New', Courier, monospace;
-  margin-top: 60px;
+div {
+  box-sizing: border-box;
 }
 
-#cont {
+html {
+  font-size: 62.5%;
+  /* 1rem = 10px */
+}
+
+/*Font Faces*/
+
+@font-face {
+  font-family: 'Samsung Sharp Sans Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Samsung Sharp Sans Regular'), url(./files/fonts/samsungsharpsans.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Samsung Sharp Sans Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Samsung Sharp Sans Medium'), url(./files/fonts/samsungsharpsans-medium.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Samsung Sharp Sans Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Samsung Sharp Sans Bold'), url(./files/fonts/samsungsharpsans-bold.woff) format('woff');
+}
+
+/*TopNavBar*/
+
+.headerNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #253b3f;
+  padding: 2rem;
+  font-family: 'Samsung Sharp Sans Medium';
+}
+
+.topNav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.topNav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+
+}
+
+.topNav ul li {
+  margin: 0 1rem;
+}
+
+.topNav ul li a {
   display: block;
-  margin: auto;
+  padding: 1rem;
+  color: #252827;
+  text-decoration: none;
+  font-size: 1.7rem;
+}
+
+/*Top Name*/
+
+.topName {
+  font-family: 'Samsung Sharp Sans Bold';
+  font-size: 3rem;
+  margin-left: 2rem;
+}
+
+.lafozName {
+  color: #253b3f;
+  font-family: 'Samsung Sharp Sans Regular';
+}
+
+/*Footer Nav*/
+
+.footerContNav {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.footerCont {
+  background-color: #253b3f;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+footer.footerCont>div {
+  flex-basis: 100%;
+  background-color: #253b3f;
+  color: white;
+  padding: 1rem;
+}
+
+.footerContRS {
+  display: flex;
+  gap: 3%;
+  justify-content: center;
+}
+
+.svgRS {
+  width: 3rem;
+}
+
+/*Top Name*/
+
+.botName {
+  font-family: 'Samsung Sharp Sans Bold';
+  font-size: 3rem;
+  margin-left: 2rem;
+  align-content: center;
+}
+
+.lafozBotName {
+  color: white;
+  font-family: 'Samsung Sharp Sans Regular';
+}
+
+/*Content*/
+.content {
+  height: 200rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Media Query*/
+
+@media (min-width: 768px) {
+  footer.footerCont>div {
+    flex-basis: calc(33.33% - 2rem);
+    margin: 1rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .headerNav {
+    flex-wrap: wrap;
+  }
+
+  .topName {
+    margin-top: 2rem;
+    margin-left: 0;
+    text-align: center;
+    order: 2;
+    flex-basis: 100%;
+  }
+
+  .topNav {
+    justify-content: center;
+    margin-right: 0;
+    margin-top: 2rem;
+    order: 3;
+    flex-basis: 100%;
+  }
+
+  .topNav ul {
+    justify-content: center;
+  }
+
+  .topNav ul li {
+    margin: 0 0.5rem;
+  }
+
+  .botName {
+    margin-top: 2rem;
+    margin-left: 0;
+    text-align: center;
+    order: 2;
+    flex-basis: 100%;
+  }
+
+  .botNav {
+    justify-content: center;
+    margin-top: 2rem;
+    order: 3;
+    flex-basis: 100%;
+  }
+
+  .botNav ul {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .botNav ul li {
+    margin: 0.5rem;
+  }
 }
