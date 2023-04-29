@@ -1,3 +1,5 @@
+/*========================== Default ==========================*/
+
 * {
   margin: 0;
 }
@@ -16,7 +18,11 @@ html {
   /* 1rem = 10px */
 }
 
-/*Font Faces*/
+a{
+  text-decoration: none;
+}
+
+/*========================== Font Faces ==========================*/
 
 @font-face {
   font-family: 'Samsung Sharp Sans Regular';
@@ -39,7 +45,7 @@ html {
   src: local('Samsung Sharp Sans Bold'), url(./files/fonts/samsungsharpsans-bold.woff) format('woff');
 }
 
-/*TopNavBar*/
+/*========================== Header ==========================*/
 
 .headerNav {
   display: flex;
@@ -47,7 +53,7 @@ html {
   align-items: center;
   color: #253b3f;
   padding: 2rem;
-  font-family: 'Samsung Sharp Sans Medium';
+  font-family: 'Samsung Sharp Sans Medium'; 
 }
 
 .topNav {
@@ -60,7 +66,6 @@ html {
   padding: 0;
   list-style: none;
   display: flex;
-
 }
 
 .topNav ul li {
@@ -88,7 +93,7 @@ html {
   font-family: 'Samsung Sharp Sans Regular';
 }
 
-/*Footer Nav*/
+/*========================== Footer ==========================*/
 
 .footerContNav {
   text-align: center;
@@ -121,7 +126,7 @@ footer.footerCont>div {
   width: 3rem;
 }
 
-/*Top Name*/
+/*Bot Name*/
 
 .botName {
   font-family: 'Samsung Sharp Sans Bold';
@@ -135,9 +140,95 @@ footer.footerCont>div {
   font-family: 'Samsung Sharp Sans Regular';
 }
 
-/*Content*/
+
+
+/*========================== Content ==========================*/
+
 .content {
-  height: 100rem;
+  height: auto;
+}
+
+.divider{
+  height: 15rem;
+}
+
+.contBox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* About Me */
+
+
+#contBox1{
+  height: auto;
+}
+
+.ml{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mlLeftBox{
+  height: 100%;
+}
+
+.mlRightBox{
+  height: 100%;
+}
+
+.mlText1{
+  font-size: 4.2rem;
+  font-family: 'Samsung Sharp Sans Bold';
+  color: #253b3f;
+}
+
+.mlText2{
+  color: #717174;
+  font-family: 'Samsung Sharp Sans Medium';
+  font-size: 2.5rem;
+  margin-top: 2rem;
+}
+
+.mlText3{
+  color: #717174;
+  font-size: 2rem;
+  margin-top: 2rem;
+  line-height: 3.5rem;
+}
+
+.mlImg{
+  width: 35rem;
+  margin-left: 5rem;
+  position: static;
+}
+
+.mlRSBox{
+  width: 10%;
+  height: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.mlRSBox ul{
+  list-style: none;
+  line-height: 6rem;
+}
+
+.mlIcons{
+  width: 3rem;
+}
+
+/* Cont Box 2 */
+
+
+#contBox2{
+  height: 10rem;
 }
 
 
@@ -204,7 +295,9 @@ footer.footerCont>div {
 
 
 
-/*Media Query*/
+
+
+/*========================== Media Query ==========================*/
 
 @media (min-width: 768px) {
   footer.footerCont>div {
@@ -264,5 +357,66 @@ footer.footerCont>div {
 
   .botNav ul li {
     margin: 0.5rem;
+  }
+
+  .mlRSBox{
+margin-right: 5rem;
+  }
+}
+
+/*mlContact*/
+
+.mlContact {
+  font-size: 1.4rem;
+  background-color: #253b3f;
+  color: white;
+  padding: 0.7em 1em;
+  padding-left: 0.9em;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 1.6rem;
+  overflow: hidden;
+  transition: all 0.2s;
+  height: 3rem;
+  width: 13rem;
+  margin-top: 5rem;
+}
+
+.mlContact span {
+  display: block;
+  margin-left: 0.3em;
+  transition: all 0.3s ease-in-out;
+}
+
+.mlContact svg {
+  display: block;
+  transform-origin: center center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.mlContact:hover .svg-wrapper {
+  animation: fly-1 0.6s ease-in-out infinite alternate;
+}
+
+.mlContact:hover svg {
+  transform: translateX(3.6em) rotate(45deg) scale(1.1);
+}
+
+.mlContact:hover span {
+  transform: translateX(10em);
+}
+
+.mlContact:active {
+  transform: scale(0.95);
+}
+
+@keyframes fly-1 {
+  from {
+    transform: translateY(0.1em);
+  }
+
+  to {
+    transform: translateY(-0.1em);
   }
 }
