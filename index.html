@@ -6,20 +6,21 @@
   <title>marcoslafoz - Portfolio</title>
   <link rel="icon" type="image/png" href="./favicon.png">
   <link rel="stylesheet" href="styles.css">
+  <script src="scrollTo.js"></script>
 </head>
 
 <body>
   <!--==================================== Header ====================================-->
 
   <header class="headerNav">
-    <div class="topName">marcos<span class="lafozName">lafoz</span></div>
+    <div class="topName" id="HOME">marcos<span class="lafozName">lafoz</span></div>
     <nav class="topNav">
       <ul>
-        <li><a href=".">Inicio</a></li>
-        <li><a href=".">Sobre Mí</a></li>
-        <li><a href=".">Proyectos</a></li>
-        <li><a href=".">Conocimientos</a></li>
-        <li><a href=".">Contacto</a></li>
+        <li><button id="btn-about-me" onclick="scrollToID('HOME')">Inicio</button></li>
+        <li><button id="btn-about-me" onclick="scrollToID('ABOUTME')">Sobre Mí</button></li>
+        <li><button id="btn-about-me" onclick="scrollToID('PROJECTS')">Proyectos</button></li>
+        <li><button id="btn-about-me" onclick="scrollToID('SKILLS')">Conocimientos</button></li>
+        <li><button id="btn-about-me" onclick="scrollToID('CONTACT')">Contacto</button></li>
       </ul>
     </nav>
   </header>
@@ -64,11 +65,12 @@
         </div>
       </div>
     </div>
+  
 
     <div id="divider2"></div>
 
     <!--==================================== Content About me ====================================-->
-
+    <span id="ABOUTME"></span>
     <div class="contBox" id="contBox2">
       <div class="aboutMeTopBox">
         <p class="aboutMeText1">Sobre Mí</p>
@@ -103,6 +105,7 @@
         </div>
       </div>
     </div>
+
   </div>
 
   <div id="divider3"></div>

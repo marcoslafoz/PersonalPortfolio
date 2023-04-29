@@ -14,8 +14,9 @@ div {
 }
 
 html {
-  font-size: 62.5%;
   /* 1rem = 10px */
+  font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -73,18 +74,22 @@ a {
   margin: 0 1rem;
 }
 
-.topNav ul li a {
-
-  padding: 1rem;
+#btn-about-me {
+  font-family: 'Samsung Sharp Sans Medium';
   color: #252827;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
   text-decoration: none;
   font-size: 1.7rem;
-  box-sizing: border-box;
+  padding: 1rem;
 }
 
-.topNav ul li a:hover {
+#btn-about-me:hover {
   color: #253b3f;
   border-bottom: 0.01rem solid #253b3f;
+  text-decoration: none;
+  box-sizing: border-box;
 }
 
 /*Top Name*/
@@ -280,12 +285,10 @@ footer.footerCont>div {
   width: 50%;
 }
 
-.aboutMeCvDownloadBox{
+.aboutMeCvDownloadBox {
   width: 100%;
   margin-top: 4rem;
 }
-
-
 
 
 
@@ -484,9 +487,9 @@ footer.footerCont>div {
   border-radius: 1rem;
   z-index: 1;
   background-color: transparent;
- }
- 
- .download-button .docs {
+}
+
+.download-button .docs {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -498,11 +501,11 @@ footer.footerCont>div {
   background-color: #253b3f;
 
   transition: all .5s cubic-bezier(0.77, 0, 0.175, 1);
- }
- 
+}
 
- 
- .download {
+
+
+.download {
   position: absolute;
   inset: 0;
   display: flex;
@@ -515,26 +518,54 @@ footer.footerCont>div {
   transform: translateY(0%);
   background-color: #242a35;
   transition: all .5s cubic-bezier(0.77, 0, 0.175, 1);
- }
- 
- .download-button:hover .download {
+}
+
+.download-button:hover .download {
   transform: translateY(100%)
- }
- 
- .download svg polyline,.download svg line {
+}
+
+.download svg polyline,
+.download svg line {
   animation: docs 1s infinite;
- }
- 
- @keyframes docs {
+}
+
+@keyframes docs {
   0% {
-   transform: translateY(0%);
+    transform: translateY(0%);
   }
- 
+
   50% {
-   transform: translateY(-15%);
+    transform: translateY(-15%);
   }
- 
+
   100% {
-   transform: translateY(0%);
+    transform: translateY(0%);
   }
- }
+}
+
+/*Scroll bar*/
+
+body::-webkit-scrollbar {
+  width: 2rem;
+}
+
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(0, 0, 0, 0.3);
+  border-radius: 2rem;
+  border: 0.5rem solid white;
+}
+
+.boxCont::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+.boxCont::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.boxCont::-webkit-scrollbar-thumb {
+  background-color: rgb(0, 0, 0, 0.3);
+  border-radius: 2rem;
+  border: 0.5rem solid #eeeeee00;
+}
