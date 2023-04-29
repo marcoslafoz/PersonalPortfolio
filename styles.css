@@ -18,8 +18,9 @@ html {
   /* 1rem = 10px */
 }
 
-a{
+a {
   text-decoration: none;
+  color: white;
 }
 
 /*========================== Font Faces ==========================*/
@@ -53,7 +54,7 @@ a{
   align-items: center;
   color: #253b3f;
   padding: 2rem;
-  font-family: 'Samsung Sharp Sans Medium'; 
+  font-family: 'Samsung Sharp Sans Medium';
 }
 
 .topNav {
@@ -73,11 +74,17 @@ a{
 }
 
 .topNav ul li a {
-  display: block;
+
   padding: 1rem;
   color: #252827;
   text-decoration: none;
   font-size: 1.7rem;
+  box-sizing: border-box;
+}
+
+.topNav ul li a:hover {
+  color: #253b3f;
+  border-bottom: 0.01rem solid #253b3f;
 }
 
 /*Top Name*/
@@ -141,6 +148,19 @@ footer.footerCont>div {
 }
 
 
+/*========================== Dividers ==========================*/
+
+#divider1 {
+  height: 25rem;
+}
+
+#divider2 {
+  height: 30rem;
+}
+
+#divider3 {
+  height: 30rem;
+}
 
 /*========================== Content ==========================*/
 
@@ -148,11 +168,7 @@ footer.footerCont>div {
   height: auto;
 }
 
-.divider{
-  height: 15rem;
-}
-
-.contBox{
+.contBox {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -161,11 +177,11 @@ footer.footerCont>div {
 /* About Me */
 
 
-#contBox1{
+#contBox1 {
   height: auto;
 }
 
-.ml{
+.ml {
   width: 50%;
   height: 100%;
   display: flex;
@@ -173,41 +189,41 @@ footer.footerCont>div {
   justify-content: center;
 }
 
-.mlLeftBox{
+.mlLeftBox {
   height: 100%;
 }
 
-.mlRightBox{
+.mlRightBox {
   height: 100%;
 }
 
-.mlText1{
+.mlText1 {
   font-size: 4.2rem;
   font-family: 'Samsung Sharp Sans Bold';
   color: #253b3f;
 }
 
-.mlText2{
+.mlText2 {
   color: #717174;
   font-family: 'Samsung Sharp Sans Medium';
   font-size: 2.5rem;
   margin-top: 2rem;
 }
 
-.mlText3{
+.mlText3 {
   color: #717174;
   font-size: 2rem;
   margin-top: 2rem;
   line-height: 3.5rem;
 }
 
-.mlImg{
+.mlImg {
   width: 35rem;
   margin-left: 5rem;
   position: static;
 }
 
-.mlRSBox{
+.mlRSBox {
   width: 10%;
   height: 100%;
   display: flex;
@@ -215,23 +231,59 @@ footer.footerCont>div {
   align-items: center;
 }
 
-.mlRSBox ul{
+.mlRSBox ul {
   list-style: none;
   line-height: 6rem;
 }
 
-.mlIcons{
+.mlIcons {
   width: 3rem;
 }
 
 /* Cont Box 2 */
 
+#contBox2 {
+  height: auto;
+}
 
-#contBox2{
-  height: 10rem;
+.aboutMeTopBox {
+  width: 50%;
+  height: auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 
+.aboutMeText1 {
+  font-size: 4.2rem;
+  font-family: 'Samsung Sharp Sans Bold';
+  color: #253b3f;
+  width: auto;
+
+}
+
+.aboutMeText2 {
+  color: #717174;
+  font-size: 1.5rem;
+  width: auto;
+  margin-top: 0.5rem;
+
+}
+
+.aboutMeText3 {
+  color: #717174;
+  font-size: 1.7rem;
+  margin-top: 2rem;
+  line-height: 3.5rem;
+  text-align: center;
+  width: 50%;
+}
+
+.aboutMeCvDownloadBox{
+  width: 100%;
+  margin-top: 4rem;
+}
 
 
 
@@ -359,8 +411,8 @@ footer.footerCont>div {
     margin: 0.5rem;
   }
 
-  .mlRSBox{
-margin-right: 5rem;
+  .mlRSBox {
+    margin-right: 5rem;
   }
 }
 
@@ -420,3 +472,69 @@ margin-right: 5rem;
     transform: translateY(-0.1em);
   }
 }
+
+/* CV Download*/
+
+.download-button {
+  position: relative;
+  border-width: 0;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border-radius: 1rem;
+  z-index: 1;
+  background-color: transparent;
+ }
+ 
+ .download-button .docs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  min-height: 4rem;
+  padding: 0 1rem;
+  border-radius: 1rem;
+  z-index: 1;
+  background-color: #253b3f;
+
+  transition: all .5s cubic-bezier(0.77, 0, 0.175, 1);
+ }
+ 
+
+ 
+ .download {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 90%;
+  margin: 0 auto;
+  z-index: -1;
+  border-radius: 1rem;
+  transform: translateY(0%);
+  background-color: #242a35;
+  transition: all .5s cubic-bezier(0.77, 0, 0.175, 1);
+ }
+ 
+ .download-button:hover .download {
+  transform: translateY(100%)
+ }
+ 
+ .download svg polyline,.download svg line {
+  animation: docs 1s infinite;
+ }
+ 
+ @keyframes docs {
+  0% {
+   transform: translateY(0%);
+  }
+ 
+  50% {
+   transform: translateY(-15%);
+  }
+ 
+  100% {
+   transform: translateY(0%);
+  }
+ }
