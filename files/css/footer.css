@@ -1,0 +1,41 @@
+/*========================== Footer ==========================*/
+
+.footerCont {
+    background-color: #253b3f;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    height: 8rem;
+    padding-top: 4rem;
+}
+
+.footerContName {
+    width: 33%;
+}
+
+.footerContDomain {
+    text-align: center;
+    font-size: 1.5rem;
+    width: 33%;
+}
+
+.footerContRS {
+    display: flex;
+    gap: 3%;
+    justify-content: center;
+    width: 33%;
+}
+
+.svgRS {
+    width: 3rem;
+}
+
+/* Bot Name */
+.botName {
+    font-family: 'Samsung Sharp Sans Bold';
+    font-size: 3rem;
+}
+
+.lafozBotName {
+    font-family: 'Samsung Sharp Sans Regular';
+}

@@ -5,35 +5,46 @@
   <meta charset="UTF-8">
   <title>marcoslafoz - Portfolio</title>
   <link rel="icon" type="image/png" href="./favicon.png">
-  <link rel="stylesheet" href="styles.css">
-  <script src="scrollTo.js"></script>
+  <link rel="stylesheet" href="./files/css/main.css">
+  <link rel="stylesheet" href="./files/css/fontfaces.css">
+  <link rel="stylesheet" href="./files/css/mediaquery.css">
+  <link rel="stylesheet" href="./files/css/header.css">
+  <link rel="stylesheet" href="./files/css/content.css">
+  <link rel="stylesheet" href="./files/css/footer.css">
+  <script src="./files/js/scrollTo.js"></script>
 </head>
 
 <body>
-  <!--==================================== Header ====================================-->
 
+  <!--================== scrollController ==================-->
+  <button onclick="test()" class="scrollControllerCont">
+    <img src="files/icons/arrow.svg" id="arrow">
+  </button>
+
+  <!--==================================== Header ====================================-->
   <header class="headerNav">
     <div class="topName" id="HOME">marcos<span class="lafozName">lafoz</span></div>
     <nav class="topNav">
       <ul>
         <li><button id="btn-about-me" onclick="scrollToID('HOME')">Inicio</button></li>
         <li><button id="btn-about-me" onclick="scrollToID('ABOUTME')">Sobre Mí</button></li>
-        <li><button id="btn-about-me" onclick="scrollToID('PROJECTS')">Proyectos</button></li>
         <li><button id="btn-about-me" onclick="scrollToID('SKILLS')">Conocimientos</button></li>
+        <li><button id="btn-about-me" onclick="scrollToID('PROJECTS')">Proyectos</button></li>
         <li><button id="btn-about-me" onclick="scrollToID('CONTACT')">Contacto</button></li>
       </ul>
     </nav>
   </header>
 
-  <!--==================================== Content Marcos Lafoz ====================================-->
-
+  <!--==================================== Content ====================================-->
   <div class="content">
     <div id="divider1"></div>
+
+    <!--================== Content Home ==================-->
     <div class="contBox" id="contBox1">
       <div class="mlRSBox">
         <ul>
-          <li><a href="https://github.com/marcoslafoz" target="_blank"><img class="mlIcons"
-                src="files/icons/mlgithub.png"></a></li>
+          <li><a href="https://github.com/marcoslafoz" target="_blank">
+              <img class="mlIcons" src="files/icons/mlgithub.png"></a></li>
           <li><a href="https://www.linkedin.com/in/marcos-lafoz-miranda-637724272/" target="_blank"><img class="mlIcons"
                 src="files/icons/mllinkedin.png"></a></li>
         </ul>
@@ -65,11 +76,10 @@
         </div>
       </div>
     </div>
-  
 
     <div id="divider2"></div>
 
-    <!--==================================== Content About me ====================================-->
+    <!--================== Content About me ==================-->
     <span id="ABOUTME"></span>
     <div class="contBox" id="contBox2">
       <div class="aboutMeTopBox">
@@ -106,33 +116,55 @@
       </div>
     </div>
 
-  </div>
+    <!--<div id="divider3"></div>
 
-  <div id="divider3"></div>
+    ================== Content Skills ==================
+    <span id="SKILLS"></span>
+    <div class="contBox" id="contBox3">.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>-->
+
+    <!--== EndContent ==-->
+  </div>
+  <div id="dividerFooter"></div>-->
 
   <!--==================================== Footer ====================================-->
 
   <footer class="footerCont">
-    <div class="footerContLogo">
+    <div class="footerContName">
       <center>
         <div class="botName">marcos<span class="lafozBotName">lafoz</span></div>
       </center>
     </div>
 
-    <div class="footerContNav">
+    <div class="footerContDomain">
       © lafoz.dev
     </div>
 
     <div class="footerContRS">
       <a href="https://github.com/marcoslafoz" target="_blank">
-        <div class="urlRS"><img class="svgRS" src="files/icons/github.svg"></div>
+        <img class="svgRS" src="files/icons/github.svg">
       </a>
       <a href="https://www.linkedin.com/in/marcos-lafoz-miranda-637724272/" target="_blank">
-        <div class="urlRS"><img class="svgRS" src="files/icons/linkedin.svg"></div>
+        <img class="svgRS" src="files/icons/linkedin.svg">
       </a>
     </div>
   </footer>
-
 </body>
 
 </html>
