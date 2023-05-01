@@ -12,7 +12,7 @@
 
 /*============= Home =============*/
 
-#contBox1 {
+#homeCont {
     height: auto;
 }
 
@@ -77,7 +77,7 @@
 
 /*============= About me =============*/
 
-#contBox2 {
+#aboutmeCont {
     height: auto;
 }
 
@@ -121,7 +121,7 @@
 
 /*============= Projects =============*/
 
-#contBox3 {
+#skillsCont {
     height: auto;
     background-color: #0707071a;
 }

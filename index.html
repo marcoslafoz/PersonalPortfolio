@@ -17,13 +17,14 @@
 <body>
 
   <!--================== scrollController ==================-->
-  <button onclick="test()" class="scrollControllerCont">
+  <button onclick="scrollController()" class="scrollControllerCont">
     <img src="files/icons/arrow.svg" id="arrow">
   </button>
 
   <!--==================================== Header ====================================-->
+  <span id="HEADER"></span>
   <header class="headerNav">
-    <div class="topName" id="HOME">marcos<span class="lafozName">lafoz</span></div>
+    <div class="topName">marcos<span class="lafozName">lafoz</span></div>
     <nav class="topNav">
       <ul>
         <li><button id="btn-about-me" onclick="scrollToID('HOME')">Inicio</button></li>
@@ -40,7 +41,8 @@
     <div id="divider1"></div>
 
     <!--================== Content Home ==================-->
-    <div class="contBox" id="contBox1">
+    <span id="HOME"></span>
+    <div class="contBox" id="homeCont">
       <div class="mlRSBox">
         <ul>
           <li><a href="https://github.com/marcoslafoz" target="_blank">
@@ -81,7 +83,7 @@
 
     <!--================== Content About me ==================-->
     <span id="ABOUTME"></span>
-    <div class="contBox" id="contBox2">
+    <div class="contBox" id="aboutmeCont">
       <div class="aboutMeTopBox">
         <p class="aboutMeText1">Sobre Mí</p>
         <p class="aboutMeText2">Introducción</p>
@@ -120,7 +122,7 @@
 
     ================== Content Skills ==================
     <span id="SKILLS"></span>
-    <div class="contBox" id="contBox3">.
+    <div class="contBox" id="skillsCont">.
 
 
 
@@ -145,7 +147,7 @@
 
   <!--==================================== Footer ====================================-->
 
-  <footer class="footerCont">
+  <footer class="footerCont" id="FOOTER">
     <div class="footerContName">
       <center>
         <div class="botName">marcos<span class="lafozBotName">lafoz</span></div>
