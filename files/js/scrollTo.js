@@ -1,6 +1,7 @@
 let currentIndex = 0
 
 window.addEventListener('scroll', detectarFinalPagina);
+window.addEventListener("scroll", detectarInicioPagina);
 
 function scrollToID(id) {
   const idSection = document.querySelector('#' + id);
@@ -48,6 +49,13 @@ function rotateArrow(degree) {
   var arrow = document.getElementById("arrow");
   arrow.style.transition = "transform 1s ease";
   arrow.style.transform = "rotate(" + degree + "deg)";
+}
+
+function detectarInicioPagina() {
+  if (window.pageYOffset === 0) {
+    currentIndex = 0
+    rotateArrow(180)
+  }
 }
 
 function detectarFinalPagina() {
