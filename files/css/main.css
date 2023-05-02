@@ -35,7 +35,11 @@ a {
 }
 
 #divider3 {
-  height: 300rem;
+  height: 28rem;
+}
+
+#divider3_1 {
+  height: 20rem;
 }
 
 #dividerFooter {

@@ -21,13 +21,17 @@
 
 .footerContRS {
     display: flex;
-    gap: 3%;
+    gap: 3rem;
     justify-content: center;
     width: 33%;
 }
 
 .svgRS {
     width: 3rem;
+}
+
+#mailLogoFix{
+    padding-top: 0.7rem;
 }
 
 /* Bot Name */
@@ -39,3 +43,7 @@
 .lafozBotName {
     font-family: 'Samsung Sharp Sans Regular';
 }
+
+
+
+

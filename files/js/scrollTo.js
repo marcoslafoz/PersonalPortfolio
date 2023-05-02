@@ -41,7 +41,6 @@ function scrollController() {
       break;
   }
 
-  console.log(idController)
   idController.scrollIntoView({ behavior: 'smooth' });
 }
 

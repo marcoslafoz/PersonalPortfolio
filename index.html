@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="./files/css/mediaquery.css">
   <link rel="stylesheet" href="./files/css/header.css">
   <link rel="stylesheet" href="./files/css/content.css">
+  <link rel="stylesheet" href="./files/css/skills.css">
   <link rel="stylesheet" href="./files/css/footer.css">
   <script src="./files/js/scrollTo.js"></script>
 </head>
@@ -22,7 +23,7 @@
   </button>
 
   <!--==================================== Header ====================================-->
-  <span id="HEADER"></span>
+  <span id="HEADER"></span><span id="HOME"></span>
   <header class="headerNav">
     <div class="topName">marcos<span class="lafozName">lafoz</span></div>
     <nav class="topNav">
@@ -38,10 +39,10 @@
 
   <!--==================================== Content ====================================-->
   <div class="content">
-    <div id="divider1"></div>
 
     <!--================== Content Home ==================-->
-    <span id="HOME"></span>
+    <div id="divider1"></div>
+
     <div class="contBox" id="homeCont">
       <div class="mlRSBox">
         <ul>
@@ -79,17 +80,22 @@
       </div>
     </div>
 
-    <div id="divider2"></div>
-
     <!--================== Content About me ==================-->
-    <span id="ABOUTME"></span>
+    <div id="divider2"><span id="ABOUTME"></span></div>
+
     <div class="contBox" id="aboutmeCont">
       <div class="aboutMeTopBox">
         <p class="aboutMeText1">Sobre Mí</p>
         <p class="aboutMeText2">Introducción</p>
         <center>
-          <p class="aboutMeText3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
-            Praesentlibero. Sed cursus ante dapibus diam.</p>
+          <p class="aboutMeText3">
+            Mi nombre es Marcos Lafoz, soy
+            estudiante de Desarrollo de
+            Aplicaciones Multiplataforma, vivo en
+            Zaragoza y tengo 19 años. Me gusta
+            la tecnología, la informática y el
+            diseño gráfico y la programación
+            (frontend y backend).</p>
         </center>
         <div class="aboutMeCvDownloadBox">
           <button class="download-button">
@@ -118,35 +124,151 @@
       </div>
     </div>
 
-    <!--<div id="divider3"></div>
+    <!--================== Content Skills ==================-->
+    <div id="divider3">
+      <div id="divider3_1"></div>
+      <span id="SKILLS"></span>
+    </div>
+    <div class="contBox" id="skillsCont">
 
-    ================== Content Skills ==================
-    <span id="SKILLS"></span>
-    <div class="contBox" id="skillsCont">.
+      <div class="skillsList">
+        <div class="skillsHeader">
+          <center>
+            <p>Conocimientos</p>
+            <p id="skillHeader2">Mi nivel técnico</pid>
+          </center>
+        </div>
+        <div class="skills">
+          <div class="skillsTopBox">
+            <div class="skillsLogo"><img src="./files/icons/code.svg"></div>
+            <div class="skillsName">
+              <p>Frontend developer</p>
+            </div>
+          </div>
+          <div class="skillsBotBox">
+            <div class="skill">
+              <div class="skillNameID">
+                <p class="skillNameIDLeft">HTML</p>
+                <p class="skillNameIDRight">90%</p>
+              </div>
+              <div class="skillBar">
+                <div class="skillBarProg" id="HtmlSkill"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skillNameID">
+                <p class="skillNameIDLeft">CSS</p>
+                <p class="skillNameIDRight">70%</p>
+              </div>
+              <div class="skillBar">
+                <div class="skillBarProg" id="CssSkill"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skillNameID">
+                <p class="skillNameIDLeft">JavaScrip</p>
+                <p class="skillNameIDRight">50%</p>
+              </div>
+              <div class="skillBar">
+                <div class="skillBarProg" id="JsSkill"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skillNameID">
+                <p class="skillNameIDLeft">React</p>
+                <p class="skillNameIDRight">20%</p>
+              </div>
+              <div class="skillBar">
+                <div class="skillBarProg" id="ReactSkill"></div>
+              </div>
+            </div>
+          </div>
+        </div>
 
+        <div class="skills">
+          <div class="skillsTopBox">
+            <div class="skillsLogo"><img src="./files/icons/serverconnection.svg"></div>
+            <div class="skillsName">
+              <p>Backend developer</p>
+            </div>
+          </div>
+          <div class="skillsBotBox">
+            <div class="skill">
+              <div class="skillNameID">
+                <p class="skillNameIDLeft">Java</p>
+                <p class="skillNameIDRight">65%</p>
+              </div>
+              <div class="skillBar">
+                <div class="skillBarProg" id="JavaSkill"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skillNameID">
+                <p class="skillNameIDLeft">MySQL</p>
+                <p class="skillNameIDRight">60%</p>
+              </div>
+              <div class="skillBar">
+                <div class="skillBarProg" id="SqlSkill"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skillNameID">
+                <p class="skillNameIDLeft">node.js</p>
+                <p class="skillNameIDRight">20%</p>
+              </div>
+              <div class="skillBar">
+                <div class="skillBarProg" id="NodeSkill"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skillNameID">
+                <p class="skillNameIDLeft">PHP</p>
+                <p class="skillNameIDRight">15%</p>
+              </div>
+              <div class="skillBar">
+                <div class="skillBarProg" id="PhpSkill"></div>
+              </div>
+            </div>
+          </div>
+        </div>
 
+        <div class="skills">
+          <div class="skillsTopBox">
+            <div class="skillsLogo"><img src="./files/icons/colorpalette.svg"></div>
+            <div class="skillsName">
+              <p>Designer</p>
+            </div>
+          </div>
+          <div class="skillsBotBox">
+            <div class="skill">
+              <div class="skillNameID">
+                <p class="skillNameIDLeft">Adobe Photoshop</p>
+                <p class="skillNameIDRight">90%</p>
+              </div>
+              <div class="skillBar">
+                <div class="skillBarProg" id="PsSkill"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skillNameID">
+                <p class="skillNameIDLeft">Adobe Illustrator</p>
+                <p class="skillNameIDRight">35%</p>
+              </div>
+              <div class="skillBar">
+                <div class="skillBarProg" id="AiSkill"></div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>-->
+      </div>
+    </div>
 
     <!--== EndContent ==-->
   </div>
   <div id="dividerFooter"></div>-->
 
   <!--==================================== Footer ====================================-->
-
   <footer class="footerCont" id="FOOTER">
     <div class="footerContName">
       <center>
@@ -159,11 +281,14 @@
     </div>
 
     <div class="footerContRS">
-      <a href="https://github.com/marcoslafoz" target="_blank">
+      <a href="https://github.com/marcoslafoz" target="_blank" id="svgRSfix">
         <img class="svgRS" src="files/icons/github.svg">
       </a>
-      <a href="https://www.linkedin.com/in/marcos-lafoz-miranda-637724272/" target="_blank">
+      <a href="https://www.linkedin.com/in/marcos-lafoz-miranda-637724272/" target="_blank" id="svgRSfix">
         <img class="svgRS" src="files/icons/linkedin.svg">
+      </a>
+      <a href="mailto:marcos.lafoz96@gmail.com" target="_blank" id="mailLogoFix">
+        <img class="svgRS" src="files/icons/mail.svg">
       </a>
     </div>
   </footer>
