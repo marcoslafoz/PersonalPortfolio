@@ -1,4 +1,4 @@
-# toDo
+# TO DO LIST
 
 - [ ] Carrusel con proyectos (zgzApp, Fasfu)
 - [ ] Contacto
