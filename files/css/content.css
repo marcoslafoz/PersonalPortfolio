@@ -8,7 +8,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
 
+.contTitleBox {
+
+    font-size: 4.2rem;
+    font-family: 'Samsung Sharp Sans Bold';
+    color: #253b3f;
+    text-align: center;
+}
+
+#contSubtitle {
+    color: #717174;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    font-family: 'Samsung Sharp Sans Regular';
 }
 
 /*============= Home =============*/
@@ -17,64 +32,60 @@
     height: auto;
 }
 
-.ml {
-    width: 50%;
+.homeBox {
+    width: 60%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.mlLeftBox {
-    height: 100%;
+.homeLeftBox {
+    width: auto;
+    display: flex;
+    align-items: center;
+
 }
 
-.mlRightBox {
-    height: 100%;
+.homeLeftBox ul {
+    list-style: none;
+    line-height: 6rem;
+    margin-right: 12rem;
 }
 
-.mlText1 {
+.homeIcons {
+    width: 3rem;
+}
+
+.homeText1 {
     font-size: 4.2rem;
     font-family: 'Samsung Sharp Sans Bold';
     color: #253b3f;
 }
 
-.mlText2 {
+.homeText2 {
     color: #717174;
     font-family: 'Samsung Sharp Sans Medium';
     font-size: 2.5rem;
     margin-top: 2rem;
 }
 
-.mlText3 {
+.homeText3 {
     color: #717174;
     font-size: 2rem;
     margin-top: 2rem;
     line-height: 3.5rem;
 }
 
-.mlImg {
+.homeImg {
     width: 35rem;
     margin-left: 5rem;
     position: static;
 }
 
-.mlRSBox {
-    width: 10%;
-    height: 100%;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-}
 
-.mlRSBox ul {
-    list-style: none;
-    line-height: 6rem;
-}
 
-.mlIcons {
-    width: 3rem;
-}
+
 
 /*============= About me =============*/
 
@@ -82,7 +93,7 @@
     height: auto;
 }
 
-.aboutMeTopBox {
+.aboutMeBox {
     width: 50%;
     height: auto;
     text-align: center;
@@ -90,23 +101,8 @@
     justify-content: center;
 }
 
-.aboutMeText1 {
-    font-size: 4.2rem;
-    font-family: 'Samsung Sharp Sans Bold';
-    color: #253b3f;
-    width: auto;
 
-}
-
-.aboutMeText2 {
-    color: #717174;
-    font-size: 1.5rem;
-    width: auto;
-    margin-top: 0.5rem;
-
-}
-
-.aboutMeText3 {
+.aboutMeText {
     color: #717174;
     font-size: 1.7rem;
     margin-top: 2rem;
@@ -124,6 +120,10 @@
 
 #skillsCont {
     height: auto;
+}
+
+#skillsTitle {
+    width: 100%;
 }
 
 .skillsList {
@@ -223,4 +223,10 @@
     width: auto;
     margin-top: 0.5rem;
     font-family: 'Samsung Sharp Sans Regular';
+}
+
+/*============= Projects =============*/
+
+#projectsCont {
+    height: auto;
 }
