@@ -246,15 +246,44 @@ body::-webkit-scrollbar-thumb {
 
 /*=== Skills ===*/
 /* Frontend */
-#HtmlSkill {width: 90%;}
-#CssSkill {width: 70%;}
-#JsSkill {width: 50%;}
-#ReactSkill {width: 20%;}
+#HtmlSkill {
+  width: 90%;
+}
+
+#CssSkill {
+  width: 70%;
+}
+
+#JsSkill {
+  width: 50%;
+}
+
+#ReactSkill {
+  width: 20%;
+}
+
 /* Backend */
-#JavaSkill{width: 65%;}
-#SqlSkill{width: 60%;}
-#NodeSkill{width: 20%;}
-#PhpSkill{width: 15%;}
+#JavaSkill {
+  width: 65%;
+}
+
+#SqlSkill {
+  width: 60%;
+}
+
+#NodeSkill {
+  width: 20%;
+}
+
+#PhpSkill {
+  width: 15%;
+}
+
 /* Designer */
-#PsSkill{width: 90%;}
-#AiSkill{width: 35%;}
+#PsSkill {
+  width: 90%;
+}
+
+#AiSkill {
+  width: 35%;
+}

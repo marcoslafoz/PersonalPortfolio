@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projects>
+    <project>
+        <name>ZGZAPP</name>
+        <description>This page is a web application project that offers Zaragoza city services. (unfinished)</description>
+        <urlImg>./src/img/ZGZAPP.png</urlImg>
+        <urlGithub>https://github.com/marcoslafoz/zgzApp</urlGithub>
+        <urlSite>https://zgzapp.lafoz.dev/</urlSite>
+    </project>
+    <project>
+        <name>FASFÚ BURGUERS</name>
+        <description>This website is a simple project from January 2022 about a fast-food restaurant called Fasfu.</description>
+        <urlImg>./src/img/FASFUBURGUERS.png</urlImg>
+        <urlGithub>https://github.com/marcoslafoz/Fasfu</urlGithub>
+        <urlSite>https://fasfu.lafoz.dev/</urlSite>
+    </project>
+</projects>

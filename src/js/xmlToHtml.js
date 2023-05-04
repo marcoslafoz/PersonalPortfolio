@@ -1,12 +1,12 @@
 function loadXML(xmlDoc, xslDoc, divClass) {
 
-	fetch("./src/docs/"+xmlDoc)
+	fetch("./src/docs/" + xmlDoc)
 		.then(response => response.text())
 		.then(data => {
 			const parser = new DOMParser();
 			const xml = parser.parseFromString(data, "application/xml");
 
-			fetch("./src/docs/"+xslDoc)
+			fetch("./src/docs/" + xslDoc)
 				.then(response => response.text())
 				.then(data => {
 					const parser2 = new DOMParser();
