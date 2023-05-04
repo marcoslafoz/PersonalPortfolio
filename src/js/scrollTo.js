@@ -26,13 +26,10 @@ function scrollController() {
       idController = document.querySelector('#PROJECTS')
       break;
     case 4:
-      idController = document.querySelector('#CONTACT')
-      break;
-    case 5:
       idController = document.querySelector('#FOOTER')
       rotateArrow(0)
       break;
-    case 6:
+    case 5:
       currentIndex = 0
       idController = document.querySelector('#HEADER')
       rotateArrow(180)
@@ -59,7 +56,7 @@ function detectarInicioPagina() {
 
 function detectarFinalPagina() {
   if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
-    currentIndex = 5
+    currentIndex = 4
     rotateArrow(0)
   }
 }
