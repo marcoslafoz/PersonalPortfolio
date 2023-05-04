@@ -231,28 +231,72 @@
     height: auto;
 }
 
-.swiper {
-    width: 50%;
-    height: 40rem;
-    margin-top: 3rem;
-}
-
-.swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
+.slideBox {
+    width: 80%;
+    height: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.swiper-slide img {
-    display: block;
-    width: 100%;
+.slideBoxImg {
+    width: 40%;
     height: 100%;
-    object-fit: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
+.slideBoxImg img {
+    width: 100%;
+}
 
+.slideBoxDivider {
+    width: 10%;
+    height: 100%;
+}
 
+.slideBoxText {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
 
+.slideTitle {
+    font-family: 'Samsung Sharp Sans Medium';
+    padding-bottom: 2rem;
+    color: #253b3f;
+}
+
+.slideText {
+    font-size: 1.3rem;
+    color: #717174;
+    width: 80%;
+}
+
+.slideButtonBox {
+    width: 100%;
+    height: 4rem;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 2rem;
+}
+
+.slideButton {
+    width: 3rem;
+    height: 3rem;
+    background-color: #253b3f;
+    border-radius: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slideButton img {
+    width: 60%;
+}

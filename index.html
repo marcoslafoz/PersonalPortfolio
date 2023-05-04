@@ -6,19 +6,18 @@
   <title>marcoslafoz - Portfolio</title>
   <link rel="icon" type="image/png" href="./favicon.png">
   <link rel="stylesheet" href="./src/css/main.css">
-  <link rel="stylesheet" href="./src/css/fontfaces.css">
   <link rel="stylesheet" href="./src/css/mediaquery.css">
   <link rel="stylesheet" href="./src/css/header.css">
   <link rel="stylesheet" href="./src/css/content.css">
-  <link rel="stylesheet" href="./src/css/skills.css">
   <link rel="stylesheet" href="./src/css/footer.css">
+  <link rel="stylesheet" href="./src/css/swiper-bundle.min.css">
   <script src="./src/js/scrollTo.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
-  <!-- Link Swiper's CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
 </head>
 
-<body onload="">
+<body>
 
   <!--================== scrollController ==================-->
   <button onclick="scrollController()" class="scrollControllerCont">
@@ -284,17 +283,49 @@
       <!-- Swiper -->
       <div class="swiper mySwiper">
         <div class="swiper-wrapper">
-          <div class="swiper-slide">Slide 1</div>
-          <div class="swiper-slide">Slide 2</div>
-          <div class="swiper-slide">Slide 3</div>
+          <div class="swiper-slide">
+            <div class="slideBox">
+              <div class="slideBoxImg"><img src="./src/img/ZGZAPP.png"></div>
+              <div class="slideBoxDivider"></div>
+              <div class="slideBoxText">
+                <p class="slideTitle">ZGZAPP</p>
+                <p class="slideText">This page is a web application project that offers Zaragoza city services.
+                  (unfinished)</p>
+                <div class="slideButtonBox">
+                  <a href="https://zgzapp.lafoz.dev/" target="_blank">
+                    <div class="slideButton"><img src="./src/icons/browser.svg"></div>
+                  </a>
+                  <a href="https://github.com/marcoslafoz/zgzApp" target="_blank">
+                    <div class="slideButton"><img src="./src/icons/github.svg"></div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slideBox">
+              <div class="slideBoxImg"><img src="./src/img/FASFUBURGUERS.png"></div>
+              <div class="slideBoxDivider"></div>
+              <div class="slideBoxText">
+                <p class="slideTitle">FASFÚ BURGUERS</p>
+                <p class="slideText">This website is a simple project from January 2022 about a fast-food restaurant
+                  called Fasfu.</p>
+                <div class="slideButtonBox">
+                  <a href="https://fasfu.lafoz.dev/" target="_blank">
+                    <div class="slideButton"><img src="./src/icons/browser.svg"></div>
+                  </a>
+                  <a href="https://github.com/marcoslafoz/Fasfu" target="_blank">
+                    <div class="slideButton"><img src="./src/icons/github.svg"></div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
         <div class="swiper-pagination"></div>
       </div>
-
-      <!-- Swiper JS -->
-      <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
       <!-- Initialize Swiper -->
       <script>
@@ -311,7 +342,6 @@
           keyboard: true,
         });
       </script>
-
     </div>
 
     <!--== EndContent ==-->
@@ -343,5 +373,10 @@
     </div>
   </footer>
 </body>
+<style>
+
+
+
+</style>
 
 </html>

@@ -1,3 +1,26 @@
+/*========================== Font Faces ==========================*/
+
+@font-face {
+  font-family: 'Samsung Sharp Sans Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Samsung Sharp Sans Regular'), url(./../fonts/samsungsharpsans.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Samsung Sharp Sans Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Samsung Sharp Sans Medium'), url(./../fonts/samsungsharpsans-medium.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Samsung Sharp Sans Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Samsung Sharp Sans Bold'), url(./../fonts/samsungsharpsans-bold.woff) format('woff');
+}
+
 /*========================== Default ==========================*/
 
 * {
@@ -39,11 +62,11 @@ a {
 }
 
 #divider3_1 {
-  height: 20rem;
+  height: 19rem;
 }
 
 #divider4 {
-  height: 28rem;
+  height: 32rem;
 }
 
 #dividerFooter {
@@ -220,3 +243,18 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   transform: rotate(180deg);
 }
+
+/*=== Skills ===*/
+/* Frontend */
+#HtmlSkill {width: 90%;}
+#CssSkill {width: 70%;}
+#JsSkill {width: 50%;}
+#ReactSkill {width: 20%;}
+/* Backend */
+#JavaSkill{width: 65%;}
+#SqlSkill{width: 60%;}
+#NodeSkill{width: 20%;}
+#PhpSkill{width: 15%;}
+/* Designer */
+#PsSkill{width: 90%;}
+#AiSkill{width: 35%;}
