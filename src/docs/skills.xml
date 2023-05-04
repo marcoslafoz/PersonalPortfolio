@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<categorias>
+  <categoria>
+    <nombreCat>Frontend developer</nombreCat>
+    <lenguaje>
+      <nombre>HTML</nombre>
+      <nivel>90%</nivel>
+    </lenguaje>
+    <lenguaje>
+      <nombre>CSS</nombre>
+      <nivel>70%</nivel>
+    </lenguaje>
+    <lenguaje>
+      <nombre>JavaScript</nombre>
+      <nivel>50%</nivel>
+    </lenguaje>
+    <lenguaje>
+      <nombre>React</nombre>
+      <nivel>20%</nivel>
+    </lenguaje>
+  </categoria>
+  <categoria>
+    <nombreCat>Backend developer</nombreCat>
+    <lenguaje>
+      <nombre>Java</nombre>
+      <nivel>65%</nivel>
+    </lenguaje>
+    <lenguaje>
+      <nombre>MySQL</nombre>
+      <nivel>60%</nivel>
+    </lenguaje>
+    <lenguaje>
+      <nombre>node.js</nombre>
+      <nivel>20%</nivel>
+    </lenguaje>
+    <lenguaje>
+      <nombre>PHP</nombre>
+      <nivel>15%</nivel>
+    </lenguaje>
+  </categoria>
+  <categoria>
+    <nombreCat>Design</nombreCat>
+    <lenguaje>
+      <nombre>Photoshop</nombre>
+      <nivel>90%</nivel>
+    </lenguaje>
+    <lenguaje>
+      <nombre>Illustrator</nombre>
+      <nivel>35%</nivel>
+    </lenguaje>
+  </categoria>
+</categorias>
