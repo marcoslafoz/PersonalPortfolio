@@ -12,26 +12,22 @@
     </lenguaje>
     <lenguaje>
       <nombre>JavaScript</nombre>
-      <nivel>50%</nivel>
-    </lenguaje>
-    <lenguaje>
-      <nombre>React</nombre>
-      <nivel>20%</nivel>
+      <nivel>35%</nivel>
     </lenguaje>
   </categoria>
   <categoria>
     <nombreCat>Backend developer</nombreCat>
     <lenguaje>
       <nombre>Java</nombre>
-      <nivel>65%</nivel>
+      <nivel>55%</nivel>
     </lenguaje>
     <lenguaje>
       <nombre>MySQL</nombre>
-      <nivel>60%</nivel>
+      <nivel>50%</nivel>
     </lenguaje>
     <lenguaje>
       <nombre>node.js</nombre>
-      <nivel>20%</nivel>
+      <nivel>10%</nivel>
     </lenguaje>
     <lenguaje>
       <nombre>PHP</nombre>
