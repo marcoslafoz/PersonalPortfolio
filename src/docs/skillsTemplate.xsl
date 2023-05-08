@@ -6,7 +6,9 @@
                 class="skills">
                 <div class="skillsTopBox">
                     <div class="skillsLogo">
-                        <img src="./src/icons/code.svg" />
+                        <img>
+                            <xsl:attribute name="src"><xsl:value-of select="imgCat" /></xsl:attribute>
+                        </img>
                     </div>
                     <div class="skillsName">
                         <p>

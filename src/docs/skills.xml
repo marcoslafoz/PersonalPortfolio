@@ -2,6 +2,7 @@
 <categorias>
   <categoria>
     <nombreCat>Frontend developer</nombreCat>
+    <imgCat>./src/icons/code.svg</imgCat>
     <lenguaje>
       <nombre>HTML</nombre>
       <nivel>90%</nivel>
@@ -17,6 +18,7 @@
   </categoria>
   <categoria>
     <nombreCat>Backend developer</nombreCat>
+    <imgCat>./src/icons/serverconnection.svg</imgCat>
     <lenguaje>
       <nombre>Java</nombre>
       <nivel>55%</nivel>
@@ -36,6 +38,7 @@
   </categoria>
   <categoria>
     <nombreCat>Design</nombreCat>
+    <imgCat>./src/icons/colorpalette.svg</imgCat>
     <lenguaje>
       <nombre>Photoshop</nombre>
       <nivel>90%</nivel>
