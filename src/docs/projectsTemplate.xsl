@@ -5,11 +5,14 @@
             <div class="swiper-slide">
                 <div class="slideBox">
                     <div class="slideBoxImg">
-                        <img>
-                            <xsl:attribute name="src">
-                                <xsl:value-of select="urlImg" />
-                            </xsl:attribute>
-                        </img>
+                        <a target="_blank">
+                            <xsl:attribute name="href"><xsl:value-of select="urlSite" /></xsl:attribute>
+                            <img>
+                                <xsl:attribute name="src">
+                                    <xsl:value-of select="urlImg" />
+                                </xsl:attribute>
+                            </img>
+                        </a>
                     </div>
                     <div class="slideBoxDivider"></div>
                     <div class="slideBoxText">
@@ -21,13 +24,13 @@
                         </p>
                         <div class="slideButtonBox">
                             <a target="_blank">
-                                <xsl:attribute name="href"><xsl:value-of select="urlGithub" /></xsl:attribute>
+                                <xsl:attribute name="href"><xsl:value-of select="urlSite" /></xsl:attribute>
                                 <div class="slideButton">
                                     <img src="./src/icons/browser.svg" />
                                 </div>
                             </a>
                             <a target="_blank">
-                                <xsl:attribute name="href"><xsl:value-of select="urlSite" /></xsl:attribute>
+                                <xsl:attribute name="href"><xsl:value-of select="urlGithub" /></xsl:attribute>
                                 <div class="slideButton">
                                     <img src="./src/icons/github.svg" />
                                 </div>
