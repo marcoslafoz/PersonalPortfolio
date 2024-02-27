@@ -2,7 +2,7 @@
   "name": "my-react-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://marcoslafoz.github.io/PersonalPortfolio-React",
+  "homepage": "https://portfolio.lafoz.dev",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
