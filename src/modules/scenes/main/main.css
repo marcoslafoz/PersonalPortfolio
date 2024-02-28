@@ -1,3 +1,5 @@
+@import url("/src/assets/styles/variables.css");
+@import url("/src/assets/styles/fonts.css");
 
 
 /*========================== Default ==========================*/
@@ -7,262 +9,37 @@
 }
 
 body {
-  background-color: rgb(255, 255, 255);
-  font-family: 'Samsung Sharp Sans Regular';
+  background-color:  white;
+  color: var(--color-primary);
+  font-family: var(--font-regular);
 }
 
-div {
-  box-sizing: border-box;
+/*========================== Font style ==========================*/
+
+.text-bold{
+  font-family: var(--font-bold);
 }
 
-html {
-  /* 1rem = 10px */
-  font-size: 62.5%;
-  scroll-behavior: smooth;
+.text-medium{
+  font-family: var(--font-medium);
 }
 
-a {
-  text-decoration: none;
-  color: white;
+/*========================== Font size ==========================*/
+
+.font-size-1{
+  font-size: var(--font-size-1);
 }
 
-/*========================== Dividers ==========================*/
-
-#divider1 {
-  height: 25rem;
+.font-size-2{
+  font-size: var(--font-size-2);
 }
 
-#divider2 {
-  height: 30rem;
+.font-size-3{
+  font-size: var(--font-size-3);
 }
 
-#divider3 {
-  height: 28rem;
-}
+/*========================== Font color ==========================*/
 
-#divider3_1 {
-  height: 19rem;
-}
-
-#divider4 {
-  height: 17rem;
-}
-
-#dividerFooter {
-  height: 0rem;
-}
-
-/*========================== Others ==========================*/
-
-/* CV Download*/
-
-.download-button {
-  position: relative;
-  border-width: 0;
-  color: white;
-  font-size: 1.5rem;
-  font-weight: 600;
-  border-radius: 1rem;
-  z-index: 1;
-  background-color: transparent;
-}
-
-.download-button .docs {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  min-height: 4rem;
-  padding: 0 1rem;
-  border-radius: 1rem;
-  z-index: 1;
-  background-color: #253b3f;
-
-  transition: all .5s cubic-bezier(0.77, 0, 0.175, 1);
-}
-
-.download {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 90%;
-  margin: 0 auto;
-  z-index: -1;
-  border-radius: 1rem;
-  transform: translateY(0%);
-  background-color: #242a35;
-  transition: all .5s cubic-bezier(0.77, 0, 0.175, 1);
-}
-
-.download-button:hover .download {
-  transform: translateY(100%)
-}
-
-.download svg polyline,
-.download svg line {
-  animation: docs 1s infinite;
-}
-
-@keyframes docs {
-  0% {
-    transform: translateY(0%);
-  }
-
-  50% {
-    transform: translateY(-15%);
-  }
-
-  100% {
-    transform: translateY(0%);
-  }
-}
-
-/*mlContact*/
-
-.homeContact {
-  font-size: 1.4rem;
-  background-color: #253b3f;
-  color: white;
-  padding: 0.7em 1em;
-  padding-left: 0.9em;
-  display: flex;
-  align-items: center;
-  border: none;
-  border-radius: 1.6rem;
-  overflow: hidden;
-  transition: all 0.2s;
-  height: 3rem;
-  width: 13rem;
-  margin-top: 5rem;
-}
-
-.homeContact span {
-  display: block;
-  margin-left: 0.3em;
-  transition: all 0.3s ease-in-out;
-}
-
-.homeContact svg {
-  display: block;
-  transform-origin: center center;
-  transition: transform 0.3s ease-in-out;
-}
-
-.homeContact:hover .svg-wrapper {
-  animation: fly-1 0.6s ease-in-out infinite alternate;
-}
-
-.homeContact:hover svg {
-  transform: translateX(3.6em) rotate(45deg) scale(1.1);
-}
-
-.homeContact:hover span {
-  transform: translateX(10em);
-}
-
-.homeContact:active {
-  transform: scale(0.95);
-}
-
-@keyframes fly-1 {
-  from {
-    transform: translateY(0.1em);
-  }
-
-  to {
-    transform: translateY(-0.1em);
-  }
-}
-
-/* Scroll bar */
-
-body::-webkit-scrollbar {
-  width: 2rem;
-}
-
-
-body::-webkit-scrollbar-thumb {
-  background-color: rgb(0, 0, 0, 0.3);
-  border-radius: 2rem;
-  border: 0.5rem solid white;
-}
-
-.boxCont::-webkit-scrollbar {
-  width: 0.5rem;
-}
-
-.boxCont::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-.boxCont::-webkit-scrollbar-thumb {
-  background-color: rgb(0, 0, 0, 0.3);
-  border-radius: 2rem;
-  border: 0.5rem solid #eeeeee00;
-}
-
-/* scrollController */
-
-.scrollControllerCont {
-  position: fixed;
-  right: 1%;
-  top: 91%;
-  width: 6rem;
-  height: 6rem;
-  background-color: #253b3f;
-  border-radius: 1rem;
-  filter: opacity(0.8);
-  border: none;
-
-}
-
-#arrow {
-  width: 100%;
-  transform: rotate(180deg);
-}
-
-/*=== Skills ===*/
-/* Frontend */
-#HtmlSkill {
-  width: 90%;
-}
-
-#CssSkill {
-  width: 70%;
-}
-
-#JsSkill {
-  width: 50%;
-}
-
-#ReactSkill {
-  width: 20%;
-}
-
-/* Backend */
-#JavaSkill {
-  width: 65%;
-}
-
-#SqlSkill {
-  width: 60%;
-}
-
-#NodeSkill {
-  width: 20%;
-}
-
-#PhpSkill {
-  width: 15%;
-}
-
-/* Designer */
-#PsSkill {
-  width: 90%;
-}
-
-#AiSkill {
-  width: 35%;
+.font-color-primary{
+  color: var(--color-primary);
 }
