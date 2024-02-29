@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/PersonalPortfolio/static/css/main.9d48e5c7.css",
-    "main.js": "/PersonalPortfolio/static/js/main.43854380.js",
-    "static/js/453.ad6eb26e.chunk.js": "/PersonalPortfolio/static/js/453.ad6eb26e.chunk.js",
+    "main.css": "/PersonalPortfolio/static/css/main.46cea0a5.css",
+    "main.js": "/PersonalPortfolio/static/js/main.98706b1d.js",
+    "static/js/453.b21437c2.chunk.js": "/PersonalPortfolio/static/js/453.b21437c2.chunk.js",
     "static/media/samsungsharpsans-bold.woff": "/PersonalPortfolio/static/media/samsungsharpsans-bold.a3d2fc0b2ed47686941b.woff",
     "static/media/samsungsharpsans-medium.woff": "/PersonalPortfolio/static/media/samsungsharpsans-medium.5d992ee0ac0fb8516f0f.woff",
     "static/media/samsungsharpsans.woff": "/PersonalPortfolio/static/media/samsungsharpsans.769f64ac016899cfcaa1.woff",
     "static/media/description.png": "/PersonalPortfolio/static/media/description.c8d7afae9a5214b75a4a.png",
     "index.html": "/PersonalPortfolio/index.html",
-    "main.9d48e5c7.css.map": "/PersonalPortfolio/static/css/main.9d48e5c7.css.map",
-    "main.43854380.js.map": "/PersonalPortfolio/static/js/main.43854380.js.map",
-    "453.ad6eb26e.chunk.js.map": "/PersonalPortfolio/static/js/453.ad6eb26e.chunk.js.map"
+    "main.46cea0a5.css.map": "/PersonalPortfolio/static/css/main.46cea0a5.css.map",
+    "main.98706b1d.js.map": "/PersonalPortfolio/static/js/main.98706b1d.js.map",
+    "453.b21437c2.chunk.js.map": "/PersonalPortfolio/static/js/453.b21437c2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d48e5c7.css",
-    "static/js/main.43854380.js"
+    "static/css/main.46cea0a5.css",
+    "static/js/main.98706b1d.js"
   ]
 }
