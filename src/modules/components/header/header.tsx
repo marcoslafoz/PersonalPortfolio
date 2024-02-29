@@ -1,13 +1,13 @@
 import React from 'react';
 import './header.css'
 
-interface Props { }
+interface HeaderProps { }
 
-export const Header: React.FC<Props> = props => {
+export const Header: React.FC<HeaderProps> = props => {
 
   return (
 
-    <header className=" container-fluid d-flex flex-wrap justify-content-center py-4 mb-4">
+    <header className="container-fluid d-flex flex-wrap justify-content-center p-4">
 
       <div className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none ">
         <span className='text-bold font-size-2 font-color-primary' >marcos</span>
@@ -15,7 +15,7 @@ export const Header: React.FC<Props> = props => {
       </div>
 
       <ul className="nav nav-pills">
-        <li className="nav-item"><div className="nav-link font-color-primary text-medium" >Inicio</div></li>
+        <li className="nav-item"><div className="nav-link font-color-primary text-medium">Inicio</div></li>
         <li className="nav-item"><div className="nav-link font-color-primary text-medium">Sobre Mí</div></li>
         <li className="nav-item"><div className="nav-link font-color-primary text-medium">Conocimientos</div></li>
         <li className="nav-item"><div className="nav-link font-color-primary text-medium">Proyectos</div></li>

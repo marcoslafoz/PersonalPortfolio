@@ -12,6 +12,7 @@ body {
   background-color:  white;
   color: var(--color-primary);
   font-family: var(--font-regular);
+  font-size: var(--font-size-regular);
 }
 
 /*========================== Font style ==========================*/
@@ -42,4 +43,15 @@ body {
 
 .font-color-primary{
   color: var(--color-primary);
+}
+
+.font-color-secondary{
+  color: var(--color-secondary);
+}
+
+/*========================== Divider ==========================*/
+
+.component{
+  margin-top: 200px;
+  margin-bottom: 200px;
 }
