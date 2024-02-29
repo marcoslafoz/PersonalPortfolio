@@ -22,9 +22,11 @@ export const SkillsCategory: React.FC<SkillsCategoryProps> = props => {
           <div className="col align-items-center text-medium font-size-3 p-0">{categoryName}</div>
         </div>
 
-        {skills.map((p, index) => (
-          <SkillItem key={index} name={p.name} percentage={p.percentage} />
-        ))}
+        {skills
+          .sort((b, a) => a.percentage - b.percentage)
+          .map((p, index) => (
+            <SkillItem key={index} name={p.name} percentage={p.percentage} />
+          ))}
 
       </div>
     </div >

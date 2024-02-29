@@ -1,7 +1,7 @@
 import React from 'react'
 import { Header, Description, Skills, AboutMe } from '../../components'
 import './main.css'
-import { marcosSkillsData } from '../../utils/data'
+import { marcosSkillsData } from '../../utils'
 
 interface MainProps { }
 
