@@ -14,7 +14,7 @@ export const Description: React.FC<DescriptionProps> = props => {
   return (
 
     <div className="container-fluid justify-content-center">
-      <div className="row flex-wrap gap-4 justify-content-center">
+      <div className="row flex-wrap gap-5 justify-content-center">
 
         <div className="col col-auto align-self-center mx-4">
           <div className='pb-3'>
@@ -36,7 +36,7 @@ export const Description: React.FC<DescriptionProps> = props => {
           <div className="row justify-content-start mt-5"><ContactButton /></div>
         </div>
 
-        <div className="col col-auto justify-content-center">
+        <div className="col col-auto justify-content-center mt-4">
           <img className="img-fluid" src={descriptionImage} alt="" />
         </div>
       </div>
