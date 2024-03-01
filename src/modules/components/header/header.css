@@ -1,5 +1,9 @@
 /*========================== Header ==========================*/
 
-.nav-link{
+.nav-link {
   text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #00a085;
 }
