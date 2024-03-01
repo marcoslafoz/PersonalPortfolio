@@ -8,19 +8,19 @@ export const marcosSkillsData: SkillsCategoryType[] = [
     icon: frontendIcon,
     name: "Frontend Developer",
     skills: [
-      { name: "HTML", percentage: 95 },
-      { name: "CSS", percentage: 75 },
+      { name: "HTML / CSS", percentage: 95 },
+      { name: "React", percentage: 75 },
       { name: "Typescript", percentage: 65 },
-      { name: "JavaScript", percentage: 50 },
+      { name: "Bootstrap", percentage: 80 },
     ],
   },
   {
     icon: backendIcon,
     name: "Backend Developer",
     skills: [
-      { name: "Java", percentage: 1 },
-      { name: "MySQL", percentage: 50 },
-      { name: "PHP", percentage: 15 },
+      { name: "Java", percentage: 65 },
+      { name: "MySQL", percentage: 60 },
+      { name: "Python", percentage: 30 },
     ],
   },
   {
