@@ -18,7 +18,7 @@ export const DownloadCvButton: React.FC<DownloadCvButtonProps> = props => {
           <polyline points="10 9 9 9 8 9"></polyline>
         </svg>CV</div>
       </a>
-      <a href="/src/assets/docs/CV_LafozMiranda_Marcos.pdf" target="_blank">
+      <a href="https://drive.google.com/file/d/1PaYKlNzwlSO4oUeLPfd59EJrNZvk_3W0/view?usp=sharing" rel='noreferrer' target="_blank">
         <div className="download">
           <svg className="css-i6dzq1" stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-width="2"
             stroke="currentColor" height="24" width="24" viewBox="0 0 24 24">
