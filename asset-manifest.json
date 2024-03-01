@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/PersonalPortfolio/static/css/main.d5184bd9.css",
+    "main.css": "/PersonalPortfolio/static/css/main.84cbf667.css",
     "main.js": "/PersonalPortfolio/static/js/main.656f3621.js",
     "static/js/453.b21437c2.chunk.js": "/PersonalPortfolio/static/js/453.b21437c2.chunk.js",
     "static/media/samsungsharpsans-bold.woff": "/PersonalPortfolio/static/media/samsungsharpsans-bold.a3d2fc0b2ed47686941b.woff",
@@ -11,12 +11,12 @@
     "static/media/serverconnection.webp": "/PersonalPortfolio/static/media/serverconnection.1305d5faeedada987a9d.webp",
     "static/media/code.webp": "/PersonalPortfolio/static/media/code.5df62e36bb0592f3cdff.webp",
     "index.html": "/PersonalPortfolio/index.html",
-    "main.d5184bd9.css.map": "/PersonalPortfolio/static/css/main.d5184bd9.css.map",
+    "main.84cbf667.css.map": "/PersonalPortfolio/static/css/main.84cbf667.css.map",
     "main.656f3621.js.map": "/PersonalPortfolio/static/js/main.656f3621.js.map",
     "453.b21437c2.chunk.js.map": "/PersonalPortfolio/static/js/453.b21437c2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5184bd9.css",
+    "static/css/main.84cbf667.css",
     "static/js/main.656f3621.js"
   ]
 }
