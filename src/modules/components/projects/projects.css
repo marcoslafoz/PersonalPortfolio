@@ -4,6 +4,7 @@
   border-radius: 18px;
   box-shadow: 20px 20px 60px #bebebea5, -20px -20px 60px #ffffff55;
   transition: transform 0.5s ease;
+  width: 350px;
 }
 
 .project-img:hover {

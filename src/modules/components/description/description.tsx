@@ -14,9 +14,9 @@ export const Description: React.FC<DescriptionProps> = props => {
   return (
 
     <div className="container-fluid justify-content-center">
-      <div className="row flex-wrap gap-5 justify-content-center">
+      <div className="row flex-wrap gap-5 justify-content-center px-5">
 
-        <div className="col col-auto align-self-center mx-4">
+        <div className="col col-auto align-self-center">
           <div className='pb-3'>
             <a href="https://github.com/marcoslafoz" target="_blank" rel="noreferrer">
               <img className="description-icons-img" src={githubIcon} alt='' />

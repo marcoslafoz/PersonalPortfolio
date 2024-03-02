@@ -12,12 +12,12 @@ export const ProjectItem: React.FC<ProjectItemProps> = props => {
 
   return (
 
-    <div className="row gap-5 my-5">
-      <div className="col ">
-        <img className="img-fluid project-img" src={previewImg} alt="" />
+    <div className="row gap-5 my-5 justify-content-center">
+      <div className="col col-auto ">
+        <img className="img project-img" src={previewImg} alt="" />
       </div>
 
-      <div className="col ">
+      <div className="col px-5 ">
         <div className="row font-color-primary font-size-3 text-medium">{name}</div>
         <div className="row font-color-secondary font-size-4 my-3">{description}</div>
         <div className="row gap-3">
