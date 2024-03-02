@@ -1,5 +1,5 @@
 import React from 'react'
-import { Header, Description, Skills, AboutMe } from '../../components'
+import { Header, Description, Skills, AboutMe, Footer } from '../../components'
 import './main.css'
 import { marcosSkillsData } from '../../utils'
 
@@ -10,7 +10,6 @@ export const Main: React.FC<MainProps> = props => {
   return (
     <div className="container-fluid">
       <div className="row"><Header /></div>
-
       <div className="row">
         <div className="col">
           <div className="row my-6 component"><Description /></div>
@@ -18,7 +17,7 @@ export const Main: React.FC<MainProps> = props => {
           <div className="row my-6 component"><Skills skillsData={marcosSkillsData} /></div>
         </div>
       </div>
-
+      <div className="row"><Footer /></div>
     </div>
   )
 }

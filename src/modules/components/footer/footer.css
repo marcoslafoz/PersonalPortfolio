@@ -1,0 +1,9 @@
+/*========================== Footer ==========================*/
+
+.footer-icons-img{
+  width: 30px;
+}
+
+footer{
+  background-color: var(--color-primary);
+}

@@ -10,6 +10,7 @@ export const SkillItem: React.FC<SkillItemProps> = props => {
 
   return (
 
+    //TODO: Hacer barra de progreso con columna bootstrap
     <div className="row my-2">
       <div className="skill">
         <div className="skillNameID text-medium font-size-4">
