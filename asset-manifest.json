@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/PersonalPortfolio/static/css/main.c9e2d519.css",
-    "main.js": "/PersonalPortfolio/static/js/main.e0cbd4ee.js",
-    "static/js/453.b21437c2.chunk.js": "/PersonalPortfolio/static/js/453.b21437c2.chunk.js",
-    "static/media/FASFUBURGUERS.png": "/PersonalPortfolio/static/media/FASFUBURGUERS.d506f2fdf3f9adf1b2ec.png",
-    "static/media/samsungsharpsans-bold.woff": "/PersonalPortfolio/static/media/samsungsharpsans-bold.a3d2fc0b2ed47686941b.woff",
-    "static/media/samsungsharpsans-medium.woff": "/PersonalPortfolio/static/media/samsungsharpsans-medium.5d992ee0ac0fb8516f0f.woff",
-    "static/media/samsungsharpsans.woff": "/PersonalPortfolio/static/media/samsungsharpsans.769f64ac016899cfcaa1.woff",
-    "static/media/VINTEDBOT.png": "/PersonalPortfolio/static/media/VINTEDBOT.a2f495ba9c058cc33246.png",
-    "static/media/ZGZAPP.png": "/PersonalPortfolio/static/media/ZGZAPP.39a5c9616e475ab3ee45.png",
-    "static/media/description.png": "/PersonalPortfolio/static/media/description.c8d7afae9a5214b75a4a.png",
-    "static/media/colorpalette.webp": "/PersonalPortfolio/static/media/colorpalette.999d9f21f7210e998be5.webp",
-    "static/media/serverconnection.webp": "/PersonalPortfolio/static/media/serverconnection.1305d5faeedada987a9d.webp",
-    "static/media/code.webp": "/PersonalPortfolio/static/media/code.5df62e36bb0592f3cdff.webp",
-    "static/media/browser.svg": "/PersonalPortfolio/static/media/browser.4ae1b6f5c3f1eb9a1a70b30f99b7b33e.svg",
-    "static/media/github.svg": "/PersonalPortfolio/static/media/github.b2ba434b0e7c630911e47cd516b1c977.svg",
-    "index.html": "/PersonalPortfolio/index.html",
-    "static/media/linkedin.svg": "/PersonalPortfolio/static/media/linkedin.92a7633023731af9d50ced34fc2d5944.svg",
-    "static/media/mail.svg": "/PersonalPortfolio/static/media/mail.a5e7bef79e8e978746b784ca63835289.svg",
-    "main.c9e2d519.css.map": "/PersonalPortfolio/static/css/main.c9e2d519.css.map",
-    "main.e0cbd4ee.js.map": "/PersonalPortfolio/static/js/main.e0cbd4ee.js.map",
-    "453.b21437c2.chunk.js.map": "/PersonalPortfolio/static/js/453.b21437c2.chunk.js.map"
+    "main.css": "/static/css/main.3fe18b61.css",
+    "main.js": "/static/js/main.d97ec946.js",
+    "static/js/453.b21437c2.chunk.js": "/static/js/453.b21437c2.chunk.js",
+    "static/media/FASFUBURGUERS.png": "/static/media/FASFUBURGUERS.d506f2fdf3f9adf1b2ec.png",
+    "static/media/samsungsharpsans-bold.woff": "/static/media/samsungsharpsans-bold.a3d2fc0b2ed47686941b.woff",
+    "static/media/samsungsharpsans-medium.woff": "/static/media/samsungsharpsans-medium.5d992ee0ac0fb8516f0f.woff",
+    "static/media/samsungsharpsans.woff": "/static/media/samsungsharpsans.769f64ac016899cfcaa1.woff",
+    "static/media/VINTEDBOT.png": "/static/media/VINTEDBOT.a2f495ba9c058cc33246.png",
+    "static/media/ZGZAPP.png": "/static/media/ZGZAPP.39a5c9616e475ab3ee45.png",
+    "static/media/description.png": "/static/media/description.c8d7afae9a5214b75a4a.png",
+    "static/media/colorpalette.webp": "/static/media/colorpalette.999d9f21f7210e998be5.webp",
+    "static/media/serverconnection.webp": "/static/media/serverconnection.1305d5faeedada987a9d.webp",
+    "static/media/code.webp": "/static/media/code.5df62e36bb0592f3cdff.webp",
+    "static/media/browser.svg": "/static/media/browser.4ae1b6f5c3f1eb9a1a70b30f99b7b33e.svg",
+    "static/media/github.svg": "/static/media/github.b2ba434b0e7c630911e47cd516b1c977.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.92a7633023731af9d50ced34fc2d5944.svg",
+    "index.html": "/index.html",
+    "static/media/mail.svg": "/static/media/mail.a5e7bef79e8e978746b784ca63835289.svg",
+    "main.3fe18b61.css.map": "/static/css/main.3fe18b61.css.map",
+    "main.d97ec946.js.map": "/static/js/main.d97ec946.js.map",
+    "453.b21437c2.chunk.js.map": "/static/js/453.b21437c2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9e2d519.css",
-    "static/js/main.e0cbd4ee.js"
+    "static/css/main.3fe18b61.css",
+    "static/js/main.d97ec946.js"
   ]
 }
