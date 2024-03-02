@@ -2,7 +2,7 @@
   "name": "personal-portfolio",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://marcoslafoz.github.io/PersonalPortfolio",
+  "homepage": "https://portfolio.lafoz.dev",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
