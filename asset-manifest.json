@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PersonalPortfolio/static/css/main.7a7f38e9.css",
-    "main.js": "/PersonalPortfolio/static/js/main.a7f04b0c.js",
+    "main.css": "/PersonalPortfolio/static/css/main.c9e2d519.css",
+    "main.js": "/PersonalPortfolio/static/js/main.e0cbd4ee.js",
     "static/js/453.b21437c2.chunk.js": "/PersonalPortfolio/static/js/453.b21437c2.chunk.js",
     "static/media/FASFUBURGUERS.png": "/PersonalPortfolio/static/media/FASFUBURGUERS.d506f2fdf3f9adf1b2ec.png",
     "static/media/samsungsharpsans-bold.woff": "/PersonalPortfolio/static/media/samsungsharpsans-bold.a3d2fc0b2ed47686941b.woff",
@@ -18,12 +18,12 @@
     "index.html": "/PersonalPortfolio/index.html",
     "static/media/linkedin.svg": "/PersonalPortfolio/static/media/linkedin.92a7633023731af9d50ced34fc2d5944.svg",
     "static/media/mail.svg": "/PersonalPortfolio/static/media/mail.a5e7bef79e8e978746b784ca63835289.svg",
-    "main.7a7f38e9.css.map": "/PersonalPortfolio/static/css/main.7a7f38e9.css.map",
-    "main.a7f04b0c.js.map": "/PersonalPortfolio/static/js/main.a7f04b0c.js.map",
+    "main.c9e2d519.css.map": "/PersonalPortfolio/static/css/main.c9e2d519.css.map",
+    "main.e0cbd4ee.js.map": "/PersonalPortfolio/static/js/main.e0cbd4ee.js.map",
     "453.b21437c2.chunk.js.map": "/PersonalPortfolio/static/js/453.b21437c2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a7f38e9.css",
-    "static/js/main.a7f04b0c.js"
+    "static/css/main.c9e2d519.css",
+    "static/js/main.e0cbd4ee.js"
   ]
 }
