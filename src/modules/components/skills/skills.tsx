@@ -18,7 +18,7 @@ export const Skills: React.FC<SkillsProps> = props => {
       <div className="row justify-content-center">
         <div className="col col-md-5 align-self-center ">
 
-          <div className="row justify-content-center my-3">
+          <div className="row justify-content-center my-3 mb-5">
             <div className="row font-color-primary justify-content-center text-bold font-size-1">Conocimientos</div>
             <div className="row font-color-secondary justify-content-center font-size-4">Mi nivel técnico</div>
           </div>

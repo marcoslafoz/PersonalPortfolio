@@ -37,7 +37,7 @@ export const Description: React.FC<DescriptionProps> = props => {
         </div>
 
         <div className="col col-auto justify-content-center mt-4">
-          <img className="img-fluid" src={descriptionImage} alt="" />
+          <img className="img-fluid" src={descriptionImage} alt="Descrition" />
         </div>
       </div>
     </div>

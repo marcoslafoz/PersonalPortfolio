@@ -1,0 +1,25 @@
+/*========================== Projects ==========================*/
+
+.project-img {
+  border-radius: 18px;
+  box-shadow: 20px 20px 60px #bebebea5, -20px -20px 60px #ffffff55;
+  transition: transform 0.5s ease;
+}
+
+.project-img:hover {
+  transform: scale(1.1);
+}
+
+.project-button {
+  width: 30px;
+  height: 30px;
+  background-color: var(--color-primary);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-button img {
+  width: 18px;
+}
