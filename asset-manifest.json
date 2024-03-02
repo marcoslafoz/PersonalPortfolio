@@ -1,22 +1,29 @@
 {
   "files": {
-    "main.css": "/PersonalPortfolio/static/css/main.84cbf667.css",
-    "main.js": "/PersonalPortfolio/static/js/main.656f3621.js",
+    "main.css": "/PersonalPortfolio/static/css/main.7a7f38e9.css",
+    "main.js": "/PersonalPortfolio/static/js/main.a7f04b0c.js",
     "static/js/453.b21437c2.chunk.js": "/PersonalPortfolio/static/js/453.b21437c2.chunk.js",
+    "static/media/FASFUBURGUERS.png": "/PersonalPortfolio/static/media/FASFUBURGUERS.d506f2fdf3f9adf1b2ec.png",
     "static/media/samsungsharpsans-bold.woff": "/PersonalPortfolio/static/media/samsungsharpsans-bold.a3d2fc0b2ed47686941b.woff",
     "static/media/samsungsharpsans-medium.woff": "/PersonalPortfolio/static/media/samsungsharpsans-medium.5d992ee0ac0fb8516f0f.woff",
     "static/media/samsungsharpsans.woff": "/PersonalPortfolio/static/media/samsungsharpsans.769f64ac016899cfcaa1.woff",
+    "static/media/VINTEDBOT.png": "/PersonalPortfolio/static/media/VINTEDBOT.a2f495ba9c058cc33246.png",
+    "static/media/ZGZAPP.png": "/PersonalPortfolio/static/media/ZGZAPP.39a5c9616e475ab3ee45.png",
     "static/media/description.png": "/PersonalPortfolio/static/media/description.c8d7afae9a5214b75a4a.png",
     "static/media/colorpalette.webp": "/PersonalPortfolio/static/media/colorpalette.999d9f21f7210e998be5.webp",
     "static/media/serverconnection.webp": "/PersonalPortfolio/static/media/serverconnection.1305d5faeedada987a9d.webp",
     "static/media/code.webp": "/PersonalPortfolio/static/media/code.5df62e36bb0592f3cdff.webp",
+    "static/media/browser.svg": "/PersonalPortfolio/static/media/browser.4ae1b6f5c3f1eb9a1a70b30f99b7b33e.svg",
+    "static/media/github.svg": "/PersonalPortfolio/static/media/github.b2ba434b0e7c630911e47cd516b1c977.svg",
     "index.html": "/PersonalPortfolio/index.html",
-    "main.84cbf667.css.map": "/PersonalPortfolio/static/css/main.84cbf667.css.map",
-    "main.656f3621.js.map": "/PersonalPortfolio/static/js/main.656f3621.js.map",
+    "static/media/linkedin.svg": "/PersonalPortfolio/static/media/linkedin.92a7633023731af9d50ced34fc2d5944.svg",
+    "static/media/mail.svg": "/PersonalPortfolio/static/media/mail.a5e7bef79e8e978746b784ca63835289.svg",
+    "main.7a7f38e9.css.map": "/PersonalPortfolio/static/css/main.7a7f38e9.css.map",
+    "main.a7f04b0c.js.map": "/PersonalPortfolio/static/js/main.a7f04b0c.js.map",
     "453.b21437c2.chunk.js.map": "/PersonalPortfolio/static/js/453.b21437c2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.84cbf667.css",
-    "static/js/main.656f3621.js"
+    "static/css/main.7a7f38e9.css",
+    "static/js/main.a7f04b0c.js"
   ]
 }
