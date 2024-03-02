@@ -15,10 +15,10 @@ export const Header: React.FC<HeaderProps> = props => {
       </div>
 
       <ul className="nav nav-pills">
-        <li className="nav-item"><div className="nav-link font-color-primary text-medium">Inicio</div></li>
-        <li className="nav-item"><div className="nav-link font-color-primary text-medium">Sobre Mí</div></li>
-        <li className="nav-item"><div className="nav-link font-color-primary text-medium">Conocimientos</div></li>
-        <li className="nav-item"><div className="nav-link font-color-primary text-medium">Proyectos</div></li>
+        <li className="nav-item"><a href='#description' className="nav-link font-color-primary text-medium">Inicio</a></li>
+        <li className="nav-item"><a href='#aboutme' className="nav-link font-color-primary text-medium">Sobre Mí</a></li>
+        <li className="nav-item"><a href='#skills' className="nav-link font-color-primary text-medium">Conocimientos</a></li>
+        <li className="nav-item"><a href='#projects' className="nav-link font-color-primary text-medium">Proyectos</a></li>
       </ul>
 
     </header>

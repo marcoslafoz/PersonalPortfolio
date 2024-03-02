@@ -12,10 +12,10 @@ export const Main: React.FC<MainProps> = props => {
       <div className="row"><Header /></div>
       <div className="row">
         <div className="col">
-          <div className="row my-6 component"><Description /></div>
-          <div className="row my-6 component"><AboutMe /></div>
-          <div className="row my-6 component"><Skills skillsData={marcosSkillsData} /></div>
-          <div className="row my-6 component"><Projects/></div>
+          <div className="row my-6 component" id='description'><Description /></div>
+          <div className="row my-6 component" id='aboutme'><AboutMe /></div>
+          <div className="row my-6 component" id='skills'><Skills skillsData={marcosSkillsData} /></div>
+          <div className="row my-6 component" id='projects'><Projects/></div>
         </div>
       </div>
       <div className="row"><Footer /></div>
