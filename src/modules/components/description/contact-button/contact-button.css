@@ -2,7 +2,7 @@
 
 .contact-button {
   font-size: var(--font-size-regular);
-  background-color: #253b3f;
+  background-color: var(--color-primary);
   color: white;
   padding: 12px 15px;
 
