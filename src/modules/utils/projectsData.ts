@@ -2,9 +2,17 @@ import { ProjectType } from "../../types"
 import vintedBotImg from "../../assets/img/VINTEDBOT.png"
 import fasfuImg from "../../assets/img/FASFUBURGUERS.png"
 import zgzAppImg from "../../assets/img/ZGZAPP.png";
+import memeGeneratorImg from "../../assets/img/MEMEGENERATOR.png";
 
 
 export const marcosProjectData: ProjectType[] = [
+  {
+    previewImg: memeGeneratorImg,
+    name: 'MemeGenerator (2024)',
+    description: 'This project is a simple meme editor using React TypeScript, Next UI, and Bootstrap.',
+    website: 'https://meme-generator.lafoz.dev/',
+    github: 'https://github.com/marcoslafoz/meme-generator'
+  },
   {
     previewImg: vintedBotImg,
     name: 'VINTED-BOT (2023)',
