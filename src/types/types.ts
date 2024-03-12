@@ -1,12 +1,12 @@
 export interface SkillType {
-  name: string;
+  name: string
   percentage: number
 }
 
 export interface SkillsCategoryType {
-  name: string;
-  icon: any;
-  skills: SkillType[];
+  name: string
+  icon: any
+  skills: SkillType[]
 }
 
 export interface ProjectType {

@@ -1,9 +1,9 @@
-import React from 'react';
+import React from 'react'
 import './description.css'
 import descriptionImage from '../../../assets/img/description.png'
 import githubIcon from '../../../assets/img/mlgithub.png'
 import linkedinIcon from '../../../assets/img/mllinkedin.png'
-import { ContactButton } from './contact-button';
+import { ContactButton } from './contact-button'
 
 
 

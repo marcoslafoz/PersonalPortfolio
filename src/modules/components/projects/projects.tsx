@@ -1,6 +1,6 @@
-import React from 'react';
-import { ProjectItem } from './project-item';
-import { marcosProjectData } from '../../utils';
+import React from 'react'
+import { ProjectItem } from './project-item'
+import { marcosProjectData } from '../../utils'
 
 interface ProjectsProps { }
 

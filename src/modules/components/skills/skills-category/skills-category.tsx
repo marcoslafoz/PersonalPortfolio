@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 import '../skills.css'
-import { SkillItem } from './skill-item';
-import { SkillType } from '../../../../types';
+import { SkillItem } from './skill-item'
+import { SkillType } from '../../../../types'
 
 interface SkillsCategoryProps {
   categoryName: string

@@ -1,5 +1,5 @@
-import React from 'react';
-import { DownloadCvButton } from './download-cv-button';
+import React from 'react'
+import { DownloadCvButton } from './download-cv-button'
 
 interface AboutMeProps { }
 

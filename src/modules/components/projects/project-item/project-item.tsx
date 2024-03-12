@@ -1,5 +1,5 @@
-import React from 'react';
-import { ProjectType } from '../../../../types';
+import React from 'react'
+import { ProjectType } from '../../../../types'
 import '../projects.css'
 import websiteIcon from '../../../../assets/img/browser.svg'
 import githubIcon from '../../../../assets/img/github.svg'

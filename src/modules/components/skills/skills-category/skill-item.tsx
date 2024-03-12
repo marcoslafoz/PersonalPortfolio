@@ -1,6 +1,6 @@
-import React from 'react';
+import React from 'react'
 import '../skills.css'
-import { SkillType } from '../../../../types';
+import { SkillType } from '../../../../types'
 
 interface SkillItemProps extends SkillType { }
 
