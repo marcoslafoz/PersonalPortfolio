@@ -18,7 +18,7 @@ export const AboutMe: React.FC<AboutMeProps> = props => {
           </div>
 
           <div className="row row-auto justify-content-center font-color-secondary font-size-3 text-center my-3">
-            Soy Marcos Lafoz, estudiante de Desarrollo de Aplicaciones Multiplataforma en Zaragoza. Me apasiona la tecnologíay la programación
+            Soy Marcos Lafoz, estudiante de Administracion de Sistemas informaticos en red en Zaragoza. Me apasiona la tecnología y la programación
           </div>
 
           <div className="row justify-content-center my-5"><DownloadCvButton/></div>

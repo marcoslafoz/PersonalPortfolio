@@ -15,7 +15,7 @@ export const Projects: React.FC<ProjectsProps> = () => {
 
           <div className="row justify-content-center my-3 mb-5">
             <div className="row font-color-primary justify-content-center text-bold font-size-1">Proyectos</div>
-            <div className="row font-color-secondary justify-content-center font-size-4">Mis proyectos</div>
+            <div className="row font-color-secondary justify-content-center font-size-4">Mis proyectos personales</div>
           </div>
 
           <div className="row row-auto justify-content-center my-3 ">

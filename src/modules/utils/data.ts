@@ -3,17 +3,22 @@ import frontendIcon from "../../assets/img/code.webp"
 import designIcon from "../../assets/img/colorpalette.webp"
 import backendIcon from "../../assets/img/serverconnection.webp"
 
-import vintedBotImg from "../../assets/img/VINTEDBOT.png"
-import fasfuImg from "../../assets/img/FASFUBURGUERS.png"
-import zgzAppImg from "../../assets/img/ZGZAPP.png"
-import memeGeneratorImg from "../../assets/img/MEMEGENERATOR.jpg"
+import memeGeneratorImg from "../../assets/img/memegenerator.jpg"
+import studentSpaceImg from "../../assets/img/studentspace.png"
 
 
 export const marcosProjectData: ProjectType[] = [
   {
+    previewImg: studentSpaceImg,
+    name: 'StudentSpace',
+    description: 'Agenda digitalizada, usando React TS, TailWind, SpringBoot Java, Docker,...',
+    website: 'https://studentspace.lafoz.dev/',
+    github: 'https://github.com/marcoslafoz/studentspace'
+  },
+  {
     previewImg: memeGeneratorImg,
-    name: 'MemeGenerator (2024)',
-    description: 'This project is a simple meme editor using React TypeScript, Next UI, and Bootstrap.',
+    name: 'MemeGenerator',
+    description: 'Simple editor de memes, usando React TypeScript, Next UI, y Bootstrap.',
     website: 'https://meme-generator.lafoz.dev/',
     github: 'https://github.com/marcoslafoz/meme-generator'
   },
