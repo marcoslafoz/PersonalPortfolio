@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.b8430712.css",
-    "main.js": "/static/js/main.77c9ed8f.js",
+    "main.css": "/static/css/main.d4c69a59.css",
+    "main.js": "/static/js/main.834594fb.js",
     "static/js/453.b21437c2.chunk.js": "/static/js/453.b21437c2.chunk.js",
+    "static/media/studentspace.png": "/static/media/studentspace.e6815dd9da7904294149.png",
     "static/media/samsungsharpsans-bold.woff": "/static/media/samsungsharpsans-bold.a3d2fc0b2ed47686941b.woff",
     "static/media/samsungsharpsans-medium.woff": "/static/media/samsungsharpsans-medium.5d992ee0ac0fb8516f0f.woff",
     "static/media/samsungsharpsans.woff": "/static/media/samsungsharpsans.769f64ac016899cfcaa1.woff",
-    "static/media/MEMEGENERATOR.jpg": "/static/media/MEMEGENERATOR.d79a0d21594542d667df.jpg",
+    "static/media/memegenerator.jpg": "/static/media/memegenerator.d79a0d21594542d667df.jpg",
     "static/media/description.png": "/static/media/description.c8d7afae9a5214b75a4a.png",
     "static/media/colorpalette.webp": "/static/media/colorpalette.999d9f21f7210e998be5.webp",
     "static/media/serverconnection.webp": "/static/media/serverconnection.1305d5faeedada987a9d.webp",
@@ -16,12 +17,12 @@
     "index.html": "/index.html",
     "static/media/linkedin.svg": "/static/media/linkedin.92a7633023731af9d50ced34fc2d5944.svg",
     "static/media/mail.svg": "/static/media/mail.a5e7bef79e8e978746b784ca63835289.svg",
-    "main.b8430712.css.map": "/static/css/main.b8430712.css.map",
-    "main.77c9ed8f.js.map": "/static/js/main.77c9ed8f.js.map",
+    "main.d4c69a59.css.map": "/static/css/main.d4c69a59.css.map",
+    "main.834594fb.js.map": "/static/js/main.834594fb.js.map",
     "453.b21437c2.chunk.js.map": "/static/js/453.b21437c2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8430712.css",
-    "static/js/main.77c9ed8f.js"
+    "static/css/main.d4c69a59.css",
+    "static/js/main.834594fb.js"
   ]
 }
